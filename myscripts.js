@@ -40,3 +40,7 @@ var x = setInterval(function() {
 }, 1000); 
 alert("Starting timer for "+ hoursToAdd + " hours and " + minutesToAdd + " minutes");
 }
+
+function newApp(){
+
+}
