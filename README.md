@@ -9,3 +9,6 @@ The goal of this webpage is to allow users to manage all their applications in o
 [ ] Once the timer finishes a desktop notification or alert will appear. Letting the user know that the desired time has passed.
 
 [ ] OPTIONAL Web extension that disables access to the site temporarily.
+
+
+https://agreeable-beach-0ddca6a0f.1.azurestaticapps.net/
