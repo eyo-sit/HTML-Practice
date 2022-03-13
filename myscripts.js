@@ -1,5 +1,14 @@
 function countDown(){// Set the date we're counting down to
-    var minutesToAdd=30;
+    var minutes = window. prompt("Enter how many minutes you would like to spend: ");
+    while(minutes > 120){
+        minutes = window. prompt("Please enter a value less than 120: ");
+    }
+    var hoursToAdd = 0;
+    if(minutes >= 60) {
+        hoursToAdd = 1;
+        minutes -= 60;
+    }
+    var minutesToAdd=minutes;
     var currentDate = new Date();
     var countDownDate = new Date(currentDate.getTime() + minutesToAdd*60000);
 
@@ -26,6 +35,8 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
+    alert("TIME'S UP");
   }
-}, 1000);
+}, 1000); 
+alert("Starting timer for "+ hoursToAdd + " hours and " + minutesToAdd + " minutes");
 }
